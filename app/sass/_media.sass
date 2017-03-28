@@ -1,0 +1,145 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Custom Media Queries */
+@media only screen and (min-height : 899px)
+	/**/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+
+	/*Disable Animation on Mobile Devices*/
+	.animated
+		/*CSS transitions*/
+		-o-transition-property: none !important
+		-moz-transition-property: none !important
+		-ms-transition-property: none !important
+		-webkit-transition-property: none !important
+		transition-property: none !important
+		/*CSS transforms*/
+		-o-transform: none !important
+		-moz-transform: none !important
+		-ms-transform: none !important
+		-webkit-transform: none !important
+		transform: none !important
+		/*CSS animations*/
+		-webkit-animation: none !important
+		-moz-animation: none !important
+		-o-animation: none !important
+		-ms-animation: none !important
+		animation: none !important
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.head-name-wrapper
+		padding-left: 15px
+		.head-name
+			padding-bottom: 10px!important
+			margin-bottom: 20px!important	
+			h1
+				font-size: 28px!important
+				font-weight: bold!important
+	.header-text
+		font-size: 9px!important
+		letter-spacing: 2px!important	
+		p
+			padding-left: -15px!important	
+	.main-head
+		background-size: cover !important
+		.logo-hidden
+			display: none
+		.main-mnu
+			display: none	
+		.hidden-mnu
+			a
+				width: 65%!important
+		.head-name-wrapper
+			padding-top: 60px!important	
+	.button
+		padding-top: 15px
+		a
+			padding: 10px 13px!important
+			font-size: 10px!important	
+	.gallery-item
+		height: 249px
+		overflow: hidden		
+		img
+			width: 100%
+			height: 100%
+		.gallery-content
+			top: 125px!important
+			left: 50px!important
+			font-size: 10px!important		
+			.first
+				font-size: 20px!important	
+			p
+				font-size: 9px!important
+	.dark-content
+		h3
+			&:before
+				width: 70%
+		p
+			line-height: 2		
+	.form
+		.form-group
+			textarea.message,
+			input.name, 
+			input.mail
+				width: 100%
+			input.name
+				margin-bottom: 30px
+			textarea.message
+				margin-top: 63px	
+			.label-message
+				top: 298px!important
+			.label-email
+				top: 188px!important
+				left: 0	!important
+			.button
+				padding: 10px 10px!important
+		.contacts
+			border-left: none!important
+			.contacts-content
+				width: 76%!important
+	.copyright
+		span
+			border-right: none!important
+		.hidden
+			display: none
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
